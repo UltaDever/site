@@ -1,0 +1,120 @@
+body {
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), 
+        url('h.webp');
+    background-color: rgb(11, 11, 11);
+    font-family: Courier New;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.img {
+    width: 15vw;
+    border-radius: 100%;
+    border: 2px solid rgb(0, 0, 117);
+    box-shadow: 0 0 30px rgb(0, 0, 155);
+}
+
+.div-profile {
+    background-color: rgba(166, 166, 166, 0.130);
+    display: inline-block;
+    width: 70vw;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.text {
+    color: white;
+}
+
+.ms {
+    font-family: monospace;
+}
+
+.print {
+    color: rgb(0, 0, 139);
+}
+
+.sk {
+    color: rgb(176, 176, 0);
+}
+
+.hw {
+    color: green;
+}
+
+.detext {
+    font-family: Calibri;
+    color: rgba(255, 255, 255, 0.534);
+    margin-bottom: 0;
+}
+
+.deskrip-my-name {
+    width: 25vw;
+    text-align: end;
+    display: inline-block;
+}
+
+.destext {
+    margin: 0;
+    display: inline-block;
+    font-family: Calibri;
+    color: rgba(255, 255, 255, 0.377);
+}
+
+.for-tg {
+    display: block;
+    margin-top: 40px;
+}
+
+.tg {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 8px;
+    background-color: white;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 40px rgba(255, 255, 255, 0.393);
+}
+
+.tg:hover {
+    background-color: #0088cc;
+    box-shadow: 0 0 40px rgba(112, 146, 255, 0.393);
+    fill: white;
+    color: white;
+}
+
+.tg:hover .tg-svg {
+    fill: white;
+}
+
+@media screen and (max-width: 900px) {
+    .img {
+        width: 20vw;
+    }
+    
+}
+
+@media screen and (max-width: 590px) {
+    .img {
+        width: 30vw;
+    }
+    
+}
+
+@media screen and (max-width: 400px) {
+    .img {
+        width: 35vw;
+    }
+    
+}
